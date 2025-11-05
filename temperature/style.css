@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.heading {
+  color: oklch(0% 0 0);
+  font-size: 2rem;
+}
+
+.tf {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20vh;
+  max-width: 350px;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+
+#textbox {
+  width: 65%;
+  text-align: center;
+  font-size: 1.6em;
+  border: 2px solid hsla(0, 0%, 0%, 0.8);
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-radius: 3px;
+}
+
+.tf label {
+  font-weight: bold rgba(0, 0, 0, 0.322);
+  font-size: 1.2rem;
+}
+#btn {
+  margin: 3vh 0;
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  background: linear-gradient(hsl(288, 100%, 70%), hsl(12, 100%, 70%));
+  border: none;
+  border-radius: 3px;
+  color: white;
+  transition: background-color ease 0.5s;
+}
+
+#btn:hover {
+  background: linear-gradient(hsl(288, 100%, 65%), hsl(12, 100%, 65%));
+}
+
+.result {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.radio {
+  margin: 5px 0;
+}
