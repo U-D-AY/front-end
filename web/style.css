@@ -133,7 +133,7 @@ header .main {
 .img {
   width: 400px;
   height: 400px;
-  background: url(../../assist/bachalpsee-7572681_1280.jpg);
+  background: url(../assist/bachalpsee-7572681_1280.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -246,19 +246,19 @@ header .main {
 }
 
 .img-one {
-  background: url(../../assist/pexels-francesco-ungaro-2325447.jpg);
+  background: url(../assist/pexels-francesco-ungaro-2325447.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .img-two {
-  background: url(../../assist/bachalpsee-7572681_1280.jpg);
+  background: url(../assist/bachalpsee-7572681_1280.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .img-three {
-  background: url(../../assist/river-7411236.jpg);
+  background: url(../assist/river-7411236.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -325,11 +325,5 @@ span {
   margin-top: 20px;
 }
 
-/* Responsive ness */
 
-/* @media only screen and (max-width: 500px) {
-  nav .hb {
-    display: flex;
-  }
-} */
 
