@@ -79,7 +79,7 @@ li a:hover {
 
 /* Header start */
 .header {
-  background: url(../../assist/pexels-francesco-ungaro-2325447.jpg);
+  background: url(../assist/pexels-francesco-ungaro-2325447.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -332,3 +332,4 @@ span {
     display: flex;
   }
 } */
+
