@@ -1,0 +1,334 @@
+:root {
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+
+/* utility style */
+button {
+  padding: 10px 30px;
+  background: var(--main-color);
+  border: none;
+  cursor: pointer;
+}
+
+/* resets */
+
+html,
+body {
+  scrollbar-width: none;
+}
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: var(--primary-color);
+}
+
+/* nav start */
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+  padding-top: 15px;
+}
+
+nav .hb {
+  width: 2rem;
+  height: 1.313rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+}
+
+nav .hb .line {
+  height: 0.188rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.65rem;
+  transition: all ease-in-out 0.3s;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+li a:hover {
+  border-bottom: 3px solid var(--main-color);
+  color: var(--main-color);
+}
+
+/* nav end */
+
+/* Header start */
+.header {
+  background: url(../../assist/pexels-francesco-ungaro-2325447.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+  font-weight: normal;
+  /* flex box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 2vh 0;
+}
+
+header .main {
+  padding: 0 2vw;
+}
+
+.main-headings {
+  font-size: 4rem;
+  word-spacing: 10px;
+  margin: 10px 0;
+}
+
+.primary-heading {
+  margin: 10px 0;
+  font-size: 4rem;
+  word-spacing: 10px;
+}
+
+.main-btn {
+  padding: 10px 30px;
+  margin-top: 8vh;
+  background: var(--main-color);
+}
+
+/* header end */
+
+/* story section */
+
+.ourStory {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  background: url(../../assist/bachalpsee-7572681_1280.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.title-style {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: serif;
+  font-size: 4rem;
+  color: #fff;
+  margin: 2vh 0;
+}
+
+.section-contant {
+  margin: 6vh;
+}
+
+.section-contant p {
+  max-width: 500px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin: 2vh 0;
+}
+
+.section-contant button {
+  margin: 2vh 0;
+}
+
+/* story end */
+
+/* Journey */
+.coffee-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.img-2 {
+  width: 400px;
+  height: 300px;
+}
+
+.title-two {
+  font-size: 4rem;
+  color: #fff;
+  font-family: serif;
+  font-weight: normal;
+}
+
+.content-section {
+  margin: 6vh;
+}
+
+.content-section p {
+  max-width: 500px;
+  margin-top: 20px;
+  line-height: 25px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+/* Journey end */
+
+/* Service */
+
+.title-three {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid var(--main-color);
+  padding: 0 20px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  position: relative;
+  margin: 0 2vw;
+  margin-bottom: 5rem;
+}
+
+.card-imag {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -55px;
+  border: 2px solid var(--main-color);
+  border-radius: 50px;
+}
+
+.img-one {
+  background: url(../../assist/pexels-francesco-ungaro-2325447.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-two {
+  background: url(../../assist/bachalpsee-7572681_1280.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-three {
+  background: url(../../assist/river-7411236.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-title {
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.card .item p {
+  color: #fff;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+/* services end */
+
+/* footer */
+footer {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+footer .cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .container {
+  /* display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center; */
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+footer .heading-info {
+  margin-bottom: 20px;
+}
+
+footer p {
+  line-height: 25px;
+  margin: 0 2vw;
+}
+
+span {
+  color: var(--main-color);
+}
+
+.para {
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive ness */
+
+/* @media only screen and (max-width: 500px) {
+  nav .hb {
+    display: flex;
+  }
+} */
